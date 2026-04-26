@@ -20,6 +20,7 @@ import java.util.Optional;
         name = "ToDos api",
         description = "crud operations"
 )
+@CrossOrigin(origins = "*")
 public class ToDoController {
     private final ToDoRepository toDoRepository;
     private final ToDoService toDoService;
